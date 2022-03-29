@@ -12,7 +12,7 @@ function rollDice(die1, die2) {
   };
 }
 
-const die = rollDice(randomNumber1, randomNumber2);
+rollDice(randomNumber1, randomNumber2);
 
 if (randomNumber1 > randomNumber2) h1.textContent = "Player 1 Wins! 🚩";
 else if (randomNumber1 < randomNumber2) h1.textContent = "Player 2 Wins! 🚩";
