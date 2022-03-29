@@ -5,9 +5,6 @@ const h1 = document.querySelector("h1");
 let randomNumber1 = Math.floor(Math.random() * 6) + 1;
 let randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-// image1.setAttribute("src", `images/dice${randomNumber1}.png`);
-// image2.setAttribute("src", `images/dice${randomNumber2}.png`);
-
 function rollDice(die1, die2) {
   return {
     image1: image1.setAttribute("src", `images/dice${die1}.png`),
