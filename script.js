@@ -5,9 +5,9 @@ const h1 = document.querySelector("h1");
 let randomNumber1 = Math.floor(Math.random() * 6) + 1;
 let randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-if (performance.getEntriesByType("navigation")[0].type === "reload") {
-  rollDice(randomNumber1, randomNumber2);
-}
+// if (performance.getEntriesByType("navigation")[0].type === "reload") {
+//   rollDice(randomNumber1, randomNumber2);
+// }
 
 function rollDice(die1, die2) {
   if (randomNumber1 > randomNumber2) h1.innerHTML = "Player 1 Wins! 🚩";
